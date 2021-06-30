@@ -16,10 +16,7 @@
 
   <nav class="nav-panel nav-panel-fixed">
     <div class="navigation">
-      <div>
 
-        </a>
-      </div>
       <div id="myNavigation">
         <ul class="nav nav-nav nav-right">
           <li><a href="#about"><b>About me</b></a></li>
@@ -159,30 +156,33 @@
         Mihail Gjorgjiev<br>
         Skopje, North Macedonia<br>
         <br>
-        <p>&#9743;</span> +38912345678</p>
-        <p>&#9993;</span> mihail.gjorgjiev@students.finki.ukim.mk</p>
+        <p>&#9743; +38912345678</p>
+        <p>&#9993; mihail.gjorgjiev@students.finki.ukim.mk</p>
 
 
         <p><strong>Github Profile:</strong> <a href="https://github.com/MihailGjorgjiev"
             target="_blank">https://github.com/MihailGjorgjiev</a></p>
 
       </div>
-      <div class="col-1 ">
-        <div class="row">
-          <div class="col-2 contact-group">
-            <input class="contact-control" id="name" name="name" placeholder="Name" type="text" required>
+      <form action="mailto:mihail.gjorgjiev@students.finki.ukim.mk" method="POST">
+
+        <div class="col-1 ">
+          <div class="row">
+            <div class="col-2 contact-group">
+              <input class="contact-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-2 contact-group">
+              <input class="contact-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
           </div>
-          <div class="col-2 contact-group">
-            <input class="contact-control" id="email" name="email" placeholder="Email" type="email" required>
+          <textarea class="contact-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+          <div class="row">
+            <div class="col-4 contact-group">
+              <button class="btn btn-default button-right" type="submit">Send</button>
+            </div>
           </div>
         </div>
-        <textarea class="contact-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-        <div class="row">
-          <div class="col-4 contact-group">
-            <button class="btn btn-default button-right" type="submit">Send</button>
-          </div>
-        </div>
-      </div>
+      </form>
     </div>
   </div>
 

@@ -204,6 +204,17 @@ textarea.contact-control {
 	float: right;
 	margin-right: -15px;
 }
+.nav-left{
+	float: left;
+	margin-left: -15px;
+}
+
+a.btn,a.btn-default{
+	border: none;
+}
+
+
+
 
 .title {
 	padding-top: 30px;
